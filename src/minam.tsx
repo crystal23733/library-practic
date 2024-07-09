@@ -1,8 +1,5 @@
 import React from "react";
-
-interface NodeProps {
-  textNode : string;
-}
+import NodeProps from "./interface/NodeProps";
 
 const Minam:React.FC<NodeProps> = ({textNode}) => {
   return (
