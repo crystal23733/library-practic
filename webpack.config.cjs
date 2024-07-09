@@ -10,7 +10,6 @@ module.exports = {
     ],
   },
   entry : {
-    main : path.resolve(__dirname, 'src/app.ts'),
     index : path.resolve(__dirname, 'src/index.tsx')
   },
   output: {
